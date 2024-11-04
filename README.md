@@ -1,40 +1,47 @@
-# Projeto Expi – Análise e Feedback Automatizados com Inteligência Artificial
+# 🚀 *Expi - Plataforma de Chat com IA e Voz*
 
-## Sumário
-1. [Introdução](#introdução)  
-2. [Objetivos Específicos](#objetivos-específicos)  
-3. [Autocrítica](#autocrítica)  
-4. [Planos para o Futuro do Projeto](#planos-para-o-futuro-do-projeto)  
-5. [Conclusão](#conclusão)  
 
----
+<p align="center">
+<img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/nextjs/nextjs-original.svg" alt="Next.js" width="50" height="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg" alt="TailwindCSS" width="50" height="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" width="50" height="50" />
+<img src="https://freelogopng.com/images/all_img/1681039182chatgpt-logo-with-name.png" alt="OpenAI" width="100" height="35" />
+<img src="https://media.licdn.com/dms/image/v2/D4E16AQH9QEcrhbmzXg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1711762502964?e=2147483647&v=beta&t=gSt2G3W64yJgb1Iglr3HWeLF14c2p0ZEJ2MjRs-3UVw" alt="Vercel" width="100" height="40" />
 
-## 1. Introdução
+</p>
 
-Sobre o projeto Expi, destacando sua relevância para a análise de atendimento automatizado em chatbots e canais de voz, com foco na aplicação de inteligência artificial para aprimorar a qualidade do atendimento e gerar feedbacks automatizados.
+> Um projeto moderno de chat interativo com IA, histórico de conversas e integração com canais de voz, tudo construído com tecnologias de ponta como *Next.js, **TypeScript, **Tailwind CSS* e *Firebase*.
 
----
+## 🌍 **[Acesse a Aplicação ao Vivo Aqui](https://expi-five.vercel.app/)**
 
-## 2. Objetivos Específicos
+> Explore a aplicação sem precisar baixar o projeto.
 
-Analisar conversas e gerar feedbacks automatizados utilizando inteligência artificial, visando monitorar e melhorar chatbots e atendimentos por voz. O projeto propõe-se a identificar pontos de aprimoramento e tendências de comunicação eficazes, oferecendo insights para equipes que atuam diretamente no suporte ao cliente.
+## 📋 *Descrição*
 
----
+O *Expi* é uma plataforma que oferece aos usuários uma experiência de chat interativo com uma IA baseada no GPT-3.5, integrando funcionalidades de histórico de conversas, análise de feedback e suporte a canais de voz. Desenvolvido com *Next.js, ele proporciona uma aplicação altamente performática, escalável e pronta para deployment no **Vercel*.
 
-## 3. Autocrítica
+### 🔥 *Principais Tecnologias Utilizadas*
 
-Após um longo período de planejamento e desenvolvimento, estamos satisfeitos com os resultados alcançados, especialmente pela oportunidade de apresentar o Expi no Next. Contudo, enfrentamos desafios, como a dificuldade na implementação da transcrição de áudio para o Expi Voice, o que nos levou a desenvolver uma solução alternativa que exibia a captura de voz na tela, embora sem som.
+- *Next.js*: Framework React para renderização no lado do servidor (SSR) e geração de sites estáticos.
+- *TypeScript*: Tipagem estática para garantir maior segurança e confiabilidade no código.
+- *Tailwind CSS*: Estilização ágil com classes utilitárias de CSS.
+- *Firebase*: Utilizado para armazenar e gerenciar conversas, feedbacks e usuários.
+- *OpenAI GPT-3.5*: Motor de IA responsável por gerar respostas inteligentes e análises de feedback.
 
-Além disso, percebemos que, ao concentrarmos nossos esforços no Expi Chat, deixamos de explorar outras funcionalidades do sistema, o que poderia ter sido um diferencial importante. Talvez, com mais diversidade de funcionalidades, poderíamos ter alcançado o pódio no Next, mas estamos satisfeitos com o reconhecimento e as conquistas obtidas.
+## 🚀 *Funcionalidades*
 
----
+### 💬 *Chat com IA*
+- Os usuários podem interagir com uma IA alimentada pelo GPT-3.5, enviando mensagens e recebendo respostas em tempo real.
+- O chat inclui um efeito de digitação para tornar a interação mais natural.
 
-## 4. Planos para o Futuro do Projeto
+### 📝 *Histórico de Conversas*
+- Todas as conversas são salvas localmente e no *Firebase*. O usuário pode acessar e continuar conversas anteriores.
+- Cada conversa recebe um título gerado automaticamente pela IA, baseado no contexto da interação.
 
-Para o futuro, nossa visão é automatizar e consolidar o Expi como um produto comercializável, oferecendo-o como uma ferramenta de CRM integrada para empresas de diferentes portes. A ideia é expandir o Expi, tornando-o compatível com diversas plataformas de comunicação, ajudando empresas a monitorar e melhorar o atendimento ao cliente com maior precisão e eficácia.
+### 📊 *Análise de Feedback*
+- Ao final de cada conversa, o usuário pode solicitar uma análise de sentimento, que indica se a interação foi positiva, neutra ou negativa.
+- Feedbacks são armazenados no *Firebase* e categorizados para futuras melhorias.
 
----
-
-## 5. Conclusão
-
-Esse projeto fortaleceu nosso compromisso com a melhoria contínua, e acreditamos que o Expi tem grande potencial para se destacar como uma ferramenta de CRM. Estamos animados para seguir aprimorando nossa solução, trazendo cada vez mais valor para empresas que buscam monitorar e elevar a experiência de atendimento ao cliente.
+### 🔊 *Canais de Voz*
+- O sistema oferece integração com canais de voz, permitindo que os usuários participem de chats de voz, utilizando WebSockets e WebRTC para comunicação em tempo real.
