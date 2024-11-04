@@ -46,6 +46,10 @@ O *Expi* é uma plataforma que oferece aos usuários uma experiência de chat in
 
 ## 🎥 *Demonstração em Vídeo*
 
-[![Demonstração do Expi](https://img.youtube.com/vi/pLGkIArwvng/0.jpg)](https://www.youtube.com/watch?v=pLGkIArwvng)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=pLGkIArwvng">
+    <img src="https://img.youtube.com/vi/pLGkIArwvng/0.jpg" alt="Demonstração do Expi" width="70%" />
+  </a>
+</p>
 
 > Clique na imagem para assistir ao vídeo no YouTube.
